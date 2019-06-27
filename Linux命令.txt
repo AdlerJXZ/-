@@ -1,0 +1,37 @@
+1. 查找目录下包含某字符的所有文件:
+
+	grep -rn "test"  * 
+	
+	*: 当前文件目录的所有文件，或者某个文件名
+	
+	r：递归查找， 包含子目录
+	
+	-i： 忽略大小写， 默认区分大小写
+	
+2. grep “” | “”
+
+	查找目录下包含字符1或者字符2 的文件
+	
+	grep '' | grep ''
+	
+	查找目录下同事包含两个字符串的文件
+	
+3. find "路径" -name "名称"
+
+	在指定目录下搜索指定名称的文件
+	
+4.  解压文件：
+
+	unzip  filename.zip
+	
+	tar -zxvf filename.tar.gz
+	
+	z: gzip
+	
+	x: extract  解压
+	
+	v: verbose 详细信息
+	
+	f: file     文件
+	
+5.
